@@ -1,0 +1,150 @@
+/* CSS HOME */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.home {
+    background: linear-gradient(white 20%, red, yellow, green, black);
+}
+
+.top__menu {
+    display: flex;
+    margin:0;
+}
+
+.top__menu li {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.top__menu li:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.top__menu li:first-child {
+    margin-right: auto;
+}
+
+.section1 {
+    display: flex;
+    height: 100vh;
+}
+
+.imagem__Logo {
+    width: 13vw;
+    right: 10vh;
+}
+
+h1 {
+    color: white;
+}
+
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+
+.imagem__produto {
+    width: 35vw;
+    right: 35vw;
+    padding-left: 0px;
+}
+
+.botao {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+.itens {
+    font-weight: bold;
+}
+
+footer { 
+    padding: 50px;
+    color: white;
+}
+
+
+/*CSS LOCALIZAÇÃO*/
+
+.localizacao {
+    background: linear-gradient(white 40%, red, yellow, green, black);
+
+}
+
+h1 {
+    padding: 25px;
+}
+
+p {
+    font-size: 20px;
+    padding: 20px;    
+}
+
+.mapa {
+ width: 100vw;
+ right: 100vw;
+}
+
+/*contato */
+
+.contato {
+    background: linear-gradient(white 50%, red, yellow, green, black);
+
+}
+
+.titulo__form {
+    padding: 18px;
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+label{
+	color: black;
+    font-weight: bold;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.dados{
+    border-radius: px;
+    display: flex;
+    flex-direction: column;      
+	padding: 10px 0px;
+    text-align: center;
+	width: 56%;
+}
+
+.campo-dados {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar__form{
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.enviar__form:hover {
+    color: red;
+}
